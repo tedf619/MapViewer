@@ -133,7 +133,7 @@ During copying, the file is also renamed to Data.gmdb, which is what GMapControl
 
 ## Downloading Tiles
 
-In the project, I included tiles with zoom level from 4 to 8, producing a 32MB database file. It contains about 1700 tiles. Going to higher zoom levels causes the file to increase exponentially in both tile count and size. At zoom level 9, the file includes over 5000 tiles and the size jumps to 120MB, which exceeds the max file size allowed with ordinary GitHub projects. You can however configure MapViewer to show zoom levels or 9 or higher (OpenStreetMap permitting). To do so, you need to first download the tiles. The following code does the trick:
+In the project, I included tiles with zoom level from 4 to 8, producing a 62MB database file. It contains about 1700 tiles. Going to higher zoom levels causes the file to increase exponentially in both tile count and size. At zoom level 9, the file includes over 5000 tiles and the size jumps to 120MB, which exceeds the max file size allowed with ordinary GitHub projects. You can however configure MapViewer to show zoom levels or 9 or higher (OpenStreetMap permitting). To do so, you need to first download the tiles. The following code does the trick:
 
 ```csharp
 using GMap.NET;
